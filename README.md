@@ -6,8 +6,5 @@
   <li>
     <a href="https://www.notion.so/d529896d5c294b129bfea04358742fa5?pvs=4">노션</a>
     </li>
-  <li>
-    <a href="https://www.notion.so/d529896d5c294b129bfea04358742fa5?pvs=4">노션</a>
-  </li>
  </ul>
 
