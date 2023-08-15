@@ -12,14 +12,16 @@
 }
 
 .content {
-  color: red;
-}
-
-p {
-  color: green;
-}
-
-#special {
   text-align: center;
-  color: black;
+}
+
+.box {
+  width: 200px;
+  background-color: cadetblue;
+  margin: 30px;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 10px;
+  color: wheat;
 }
