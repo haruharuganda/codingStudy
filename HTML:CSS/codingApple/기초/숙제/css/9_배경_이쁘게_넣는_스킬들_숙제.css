@@ -1,0 +1,31 @@
+.main-background {
+  width: 100%;
+  height: 31.25rem;
+  background-image: url(/img/layoutBackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0.0625rem;
+
+  text-align: center;
+  color: white;
+}
+
+.main-title {
+  margin-top: 8%;
+}
+
+.main-title h4 {
+  font-size: 2.5rem;
+}
+
+.main-button {
+  margin-top: 1.875rem;
+
+  font-size: 1.25rem;
+  width: 10%;
+  padding: 1.25rem;
+
+  border: none;
+  border-radius: 0.625rem;
+}

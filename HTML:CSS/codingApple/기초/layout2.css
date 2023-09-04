@@ -1,0 +1,14 @@
+.main-background {
+  width: 100%;
+  height: 31.25rem;
+  background-image: url(/img/layoutBackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0.0625rem;
+}
+.main-title {
+  color: white;
+  font-size: 2.5rem;
+  margin-top: 12.5rem;
+}
