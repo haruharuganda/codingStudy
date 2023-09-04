@@ -43,3 +43,23 @@
   right: 0;
   margin: auto;
 }
+
+.content-container {
+  color: black;
+  width: 35%;
+  height: 6.25rem;
+  background-color: #eee;
+
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6.25rem;
+  margin: auto;
+
+  padding: 3.125rem;
+}
+.content-title {
+  margin-bottom: 5%;
+}
