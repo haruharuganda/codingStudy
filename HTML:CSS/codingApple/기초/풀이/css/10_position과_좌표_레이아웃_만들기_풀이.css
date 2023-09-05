@@ -1,7 +1,6 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
 }
 
 .main-background {
@@ -30,7 +29,6 @@
 }
 
 .main-button {
-  box-sizing: border-box;
   margin-top: 1.875rem;
 
   font-size: 1.25rem;
@@ -47,8 +45,7 @@
 }
 
 .explain-box {
-  width: 80%;
-  max-width: 37.5rem;
+  width: 43.75rem;
 
   margin: auto;
 
@@ -59,7 +56,6 @@
   position: relative;
   top: -30px;
 }
-
 .explain-box h4 {
   margin: 1% 0;
 }
