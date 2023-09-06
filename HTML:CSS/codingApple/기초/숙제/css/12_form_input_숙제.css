@@ -1,0 +1,151 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main-background {
+  width: 100%;
+  height: 31.25rem;
+  background-image: url(/img/layoutBackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0.0625rem;
+
+  text-align: center;
+  color: white;
+
+  position: relative;
+}
+
+.main-title {
+  margin-top: 8%;
+  font-size: 2.5rem;
+}
+
+.main-content {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.main-button {
+  box-sizing: border-box;
+  margin-top: 1.875rem;
+
+  font-size: 1.25rem;
+  width: 15%;
+  padding: 1.25rem;
+  background-color: white;
+  border: none;
+  border-radius: 0.625rem;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.explain-box {
+  width: 80%;
+  max-width: 37.5rem;
+
+  margin: auto;
+
+  padding: 20px;
+  text-align: center;
+  background-color: #eee;
+
+  position: relative;
+  top: -30px;
+}
+
+.explain-box h4 {
+  margin: 1% 0;
+}
+
+.contact-box {
+  width: 50%;
+  max-width: 37.5rem;
+  padding: 3%;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 0.0625rem solid #eee;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 31.25rem;
+
+  margin-top: 1.25rem;
+}
+
+.contact-form h2 {
+  margin-bottom: 4%;
+}
+
+.contact-form div {
+  padding: 2% 0;
+}
+
+.contact-form input,
+textarea {
+  margin-top: 0.625rem;
+}
+
+.contact-form input[type="email"] {
+  padding: 1.25rem;
+  width: 100%;
+  font-size: 0.9375rem;
+  border: 0.125rem solid #eee;
+  border-radius: 0.3125rem;
+}
+
+.contact-form input[type="text"] {
+  padding: 1.25rem;
+  width: 100%;
+
+  font-size: 0.9375rem;
+  border: 0.125rem solid #eee;
+  border-radius: 0.3125rem;
+}
+
+.float-left {
+  width: 45%;
+  float: left;
+}
+
+.margin-right-10 {
+  margin-right: 10%;
+}
+
+.contact-textarea {
+  width: 100%;
+}
+
+.width-40 {
+  width: 40%;
+}
+
+.width-49 {
+  width: 49%;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.contact-form input[type="submit"] {
+  padding: 1.25rem;
+  width: 100%;
+
+  font-size: 0.9375rem;
+  border: 0.125rem solid #eee;
+  border-radius: 0.3125rem;
+
+  background-color: #ff9900;
+  color: white;
+}
