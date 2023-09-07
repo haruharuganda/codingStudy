@@ -138,6 +138,10 @@ textarea {
   display: inline-block;
 }
 
+.send-button-box {
+  width: 49%;
+}
+
 .contact-form input[type="submit"] {
   padding: 1.25rem;
   width: 100%;
