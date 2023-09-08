@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 1.25rem;
+}
+
+.cart-table td,
+th {
+  padding: 0.9375rem;
+
+  border-bottom: 0.0625rem solid #c2d3de;
+}
+
+.cart-table th:nth-child(2) {
+  width: 25rem;
+}
+
+.cart-background {
+  width: 100%;
+  background-color: #c2d3de;
+  padding: 1.875rem;
+}
+
+.cart-table {
+  width: 100%;
+  max-width: 43.75rem;
+  margin: auto;
+  background-color: white;
+  border-radius: 0.625rem;
+}
+
+.cell-long {
+  width: 18.75rem;
+}
