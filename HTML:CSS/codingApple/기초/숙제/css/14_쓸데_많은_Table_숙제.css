@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 1.25rem;
+}
+
+thead {
+  text-align: center;
+  color: rgb(50, 60, 60);
+}
+
+tr {
+  border: 0.125rem solid rgb(99, 196, 196);
+
+  height: 3.125rem;
+}
+
+tbody {
+  color: rgb(99, 196, 196);
+}
+
+tbody h3 {
+  color: black;
+}
+
+td {
+  padding: 0.625rem;
+}
+
+.background-blue {
+  width: 100%;
+  padding: 1.875rem;
+  background-color: rgb(99, 196, 196);
+}
+
+.center {
+  width: 70%;
+  max-width: 700px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center h1 {
+  color: rgb(21, 44, 44);
+
+  margin-bottom: 0.625rem;
+}
+
+.white-table {
+  width: 100%;
+
+  background-color: white;
+}
+
+.text-right {
+  text-align: right;
+}
+
+table img {
+  width: 6.25rem;
+  height: 6.25rem;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.font-bolder {
+  color: rgb(27, 41, 36);
+  font-weight: bolder;
+}
+.w-100 {
+  width: 100%;
+}
+
+.movePayment-button {
+  padding: 1.25rem;
+  border: none;
+  background-color: rgb(21, 33, 33);
+  color: white;
+  border-radius: 0.1875rem;
+
+  margin-left: 250px;
+}
