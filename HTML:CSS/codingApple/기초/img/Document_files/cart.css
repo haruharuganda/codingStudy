@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a {
+  color: black;
+}
+
 table {
   border-collapse: collapse;
   margin-bottom: 1.25rem;
@@ -62,12 +66,10 @@ th {
   border: 0.125rem solid black;
 }
 
-.custom-link {
-  text-decoration: none;
+.input-test {
+  font-size: 1.25rem;
 }
-.custom-link:link {
-  color: violet;
-}
-.custom-link:visited {
-  color: black;
+
+.input-test:focus {
+  border: 0.125rem solid red;
 }

@@ -7,34 +7,33 @@
     <link rel="stylesheet" href="./cart.css" />
   </head>
   <body>
-    <div>
-      <table>
+    <div class="cart-background">
+      <h3>Your Shopping Cart</h3>
+      <table class="cart-table">
         <thead>
           <tr>
-            <th>
-              <p>dddddd</p>
-              <p>dddddd</p>
-            </th>
-            <td style="vertical-align: top">2</td>
-            <td style="vertical-align: bottom">3</td>
+            <th></th>
+            <th class="cell-long">Item</th>
+            <th>Amount</th>
+            <th>Price</th>
+            <th>Total</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th>1</th>
-            <td>2</td>
-            <td>3</td>
+            <td><img src="../../img/sony FE.jpeg" alt="" width="50px" /></td>
+            <td>카메라</td>
+            <td>1</td>
+            <td>7000</td>
+            <td>7000</td>
+          </tr>
+          <tr>
+            <td colspan="5" style="text-align: right">총 가격 : 7000</td>
           </tr>
         </tbody>
       </table>
-    </div>
-
-    <div style="display: table">
-      <div style="display: table-row">
-        <div style="display: table-cell; border: 1px solid black">1</div>
-        <div style="display: table-cell; border: 1px solid black">2</div>
-        <div style="display: table-cell; border: 1px solid black">3</div>
-      </div>
+      <button class="btn">구매하기</button>
+      <a class="custom-link" href="layout1.html">link</a>
     </div>
   </body>
 </html>
