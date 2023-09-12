@@ -65,9 +65,51 @@ th {
 .custom-link {
   text-decoration: none;
 }
+
 .custom-link:link {
   color: violet;
 }
+
 .custom-link:visited {
   color: black;
+}
+
+.btn-red {
+  padding: 0.9375rem;
+  font-size: 1.25rem;
+  border: none;
+  cursor: pointer;
+  background-color: red;
+}
+
+.btn-blue {
+  padding: 0.9375rem;
+  font-size: 1.25rem;
+  border: none;
+  cursor: pointer;
+  background-color: blue;
+}
+
+.f-small {
+  font-size: 12px;
+}
+.f-mid {
+  font-size: 16px;
+}
+.f-lg {
+  font-size: 20px;
+}
+.main-btn {
+  padding: 0.9375rem;
+  font-size: 1.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-blue {
+  background-color: blue;
 }
