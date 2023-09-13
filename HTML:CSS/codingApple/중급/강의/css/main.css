@@ -14,6 +14,7 @@
   box-sizing: border-box;
   font-weight: 900;
 }
+
 p,
 h4,
 h3,
@@ -199,4 +200,24 @@ input[type="email"] {
 
 .f-size20 {
   font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-title {
+    font-size: 1.875rem;
+  }
+
+  .nav-item {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 1.25rem;
+  }
+
+  .nav-item {
+    font-size: 0.75rem;
+  }
 }
