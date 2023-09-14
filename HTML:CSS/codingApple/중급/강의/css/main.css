@@ -221,6 +221,8 @@ input[type="email"] {
   margin: auto;
   margin-top: 3.125rem;
   margin-bottom: 3.125rem;
+
+  background-color: #eee;
 }
 
 .menuList-item {
