@@ -41,6 +41,16 @@ h4 {
   margin: 1% 0;
 }
 
+.menuList-item i {
+  background-color: burlywood;
+  width: 6.25rem;
+  height: 6.25rem;
+  border-radius: 3.125rem;
+  padding-top: 1.5625rem;
+  margin-top: 1.25rem;
+  color: white;
+}
+
 .width-40 {
   width: 40%;
 }
@@ -98,7 +108,7 @@ h4 {
 
 .explain-box {
   width: 80%;
-  max-width: 37.5rem;
+  /* max-width: 37.5rem; */
 
   margin: auto;
 
@@ -216,13 +226,11 @@ input[type="email"] {
 
 .menuList-container {
   width: 80%;
-  max-width: 37.5rem;
+  max-width: 50rem;
 
   margin: auto;
   margin-top: 3.125rem;
   margin-bottom: 3.125rem;
-
-  background-color: #eee;
 }
 
 .menuList-item {
@@ -255,6 +263,10 @@ input[type="email"] {
     font-size: 1rem;
     font-weight: 900;
   }
+
+  .menuList-container {
+    background-color: #eee;
+  }
 }
 @media screen and (max-width: 576px) {
   .main-title {
@@ -271,5 +283,9 @@ input[type="email"] {
 
   .item-title {
     font-weight: 900;
+  }
+
+  .menuList-container {
+    background-color: #eee;
   }
 }
